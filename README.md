@@ -1,2 +1,2 @@
-# Boosted-HySINDy
-Boosted-HySINDy ( Boosted Hybrid Sparse Identification of Nonlinear Dynamics )
+# Informed-HySINDy
+Informed-HySINDy ( Informed Hybrid Sparse Identification of Nonlinear Dynamics )
