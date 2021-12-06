@@ -16,7 +16,7 @@ usesine = Thetalib.usesine;
 numlambda = lambdavals.numlambda;
 lambdastart = lambdavals.lambdastart;
 lambdaend = lambdavals.lambdaend;
-if isfield(lambdavals,'method') %si può costruire lambdavals in modo che funzioni secondo metodi diversi
+if isfield(lambdavals,'method') %its possible build lambdavals in many different ways
     sparsify_tag = lambdavals.method;
 else
     sparsify_tag = 'threshold';
@@ -25,9 +25,6 @@ end
 
 % make a vector of threshold values
 Lambda = logspace(lambdastart,lambdaend, numlambda);
-%utilizzando lospace il vettore Lambda ha valori con interspazi più piccoli
-%per i valori più piccoli di lambda e via via più grandi per valori di
-%lambda sempre maggiori
 
 % get sizes and lengths of data and library
 [ntimeseries, nstates] = size(dx);
