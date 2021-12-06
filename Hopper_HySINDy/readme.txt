@@ -9,7 +9,7 @@ Running maincode_Hopping.m both the training and validation steps are
 execute.
 
 The folders "plot_performance" and "Analysis_RecoveryRate_ClusterDimension_Noise"
-contain additional code to perform more in-depth analysis about how the algorithm works.
+contain additional codes to perform more in-depth analysis about how the algorithm works.
 
 The other folders ("hopper", "SINDy", "validation") contain the utils
 functions called by the main code.
